@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the data from an Excel file
-data = pd.read_excel('/home/proayush/Desktop/ML_Analysis/Analysis 2024/shailza_work/azas_ds.xlsx')
+data = pd.read_excel('azas_ds.xlsx')
 
 # Extract features and target variable
 X = data.drop(columns=['ds (m)'])
