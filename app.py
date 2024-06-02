@@ -8,7 +8,7 @@ gpr_model = joblib.load('gpr_model.joblib.joblib')
 
 # Title of the web app
 st.title('Scour Depth Prediction')
-, median grain size (d50), flow depth (H), Froude number (Fr), and pier diameter (D).
+
 # Sidebar with input fields
 st.sidebar.title('Input Features')
 U = st.sidebar.slider('Flow Velocity (m/s)', min_value=0.09, max_value=0.28, step=0.01, value=0.15)
