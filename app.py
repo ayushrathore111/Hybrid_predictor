@@ -4,7 +4,7 @@ import joblib
 
 # Load the trained models
 rf_model = joblib.load('random_forest_model.joblib')
-gpr_model = joblib.load('gpr_model.joblib.joblib')
+gpr_model = joblib.load('gpr_model.joblib')
 
 # Title of the web app
 st.title('Scour Depth Prediction')
